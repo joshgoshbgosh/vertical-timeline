@@ -1,0 +1,159 @@
+body {
+  background: #ABA9A9;
+
+}
+ /* edits of 1st container  ---------------------------------*/
+
+.section1 {
+  background-color: #F9F9F9;
+  margin: 400px;
+
+}
+
+.date1{
+  background-color: red;
+  display:inline-block;
+   color: #F9F9F9;
+   padding: 15px;
+   font-size: 20px;
+   margin:0;
+  position: relative;
+  left: 345px;
+
+}
+
+.title1 {
+  padding-left: 20px;
+  margin: 0;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.paragraph1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.button1 {
+  background-color: #1489BF;
+  color: white;
+  border: 2px solid #1489BF;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+/* edits of 2nd container -------------------------------------------------- */
+
+
+
+
+.section2 {
+
+  background-color: #F9F9F9;
+  margin: 300px;
+  margin-right: 500px;
+  background-size: 100% 50%;
+  width: 500px;
+
+  background-repeat: no-repeat;
+  background-image:  url("https://cdn.serif.com/spotlight/content/z8z/t9n/xlj/image-060ce5f3f1e5648705c9244ce549b589--opengraph@1x.jpg");
+}
+
+
+
+.date2 {
+  background-color: red;
+  color: #F9F9F9;
+  display: inline-block;
+  padding: 15px;
+  font-size: 20px;
+  margin: 0;
+}
+
+.title2 {
+  padding-left: 20px;
+  padding-top: 70px;
+  color: #F9F9F9;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.paragraph2 {
+  font-size: 20px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+
+
+}
+
+
+/* edits of 3rd container ----------------------------------------------------- */
+
+
+
+.button2 {
+  background-color: #1489BF;
+  color: white;
+  border: 2px solid #1489BF;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.button2:hover {
+  background-color: white;
+  color: black;
+}
+
+.section3 {
+  background-color: #F9F9F9;
+  margin: 400px;
+}
+
+.date3 {
+  background-color: red;
+  color: #F9F9F9;
+  display: inline-block;
+  padding: 15px;
+  font-size: 20px;
+  margin: 0;
+  position: relative;
+  left: 338px;
+}
+
+.title3 {
+  padding-left: 20px;
+  padding-top: 0;
+  margin: 0;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.paragraph3 {
+  padding-left: 60px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  margin: 10px;
+  font-size: 20px;
+
+}

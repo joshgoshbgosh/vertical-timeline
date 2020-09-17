@@ -225,3 +225,30 @@ body {
   left: 730px;
   bottom: 2070px;
 }
+.circle {
+  height: 30px;
+  width: 30px;
+  background-color: #1489BF;
+  border-radius: 50%;
+  position: relative;
+  left:625px;
+  bottom: 2130px;
+}
+.circle2 {
+  height: 30px;
+  width: 30px;
+  background-color: #1489BF;
+  border-radius: 50%;
+  position: relative;
+  left:625px;
+  bottom: 2550px;
+}
+.circle3 {
+  height: 30px;
+  width: 30px;
+  background-color: #1489BF;
+  border-radius: 50%;
+  position: relative;
+  left:625px;
+  bottom:1650px;
+}

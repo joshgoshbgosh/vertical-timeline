@@ -1,8 +1,11 @@
 body {
   background: #ABA9A9;
-
 }
- /* edits of 1st container  ---------------------------------*/
+
+/* edits of 1st container  ---------------------------------*/
+
+
+
 
 .section1 {
   background-color: #F9F9F9;
@@ -10,28 +13,23 @@ body {
   position: relative;
   right: 350px;
   bottom: 350px;
-
-
 }
 
-.section1::after{
+.section1::after {
   content: "";
   height: 10px;
   width: 10px;
-
 }
 
-.date1{
+.date1 {
   background-color: red;
-  display:inline-block;
-   color: #F9F9F9;
-   padding: 15px;
-   font-size: 20px;
-   margin:0;
+  display: inline-block;
+  color: #F9F9F9;
+  padding: 15px;
+  font-size: 20px;
+  margin: 0;
   position: relative;
   left: 345px;
-
-
 }
 
 .title1 {
@@ -66,29 +64,19 @@ body {
   color: black;
 }
 
-
-
 /* edits of 2nd container -------------------------------------------------- */
-
-
-
-
 .section2 {
-
   background-color: #F9F9F9;
   margin: 300px;
   margin-right: 500px;
   background-size: 100% 50%;
   width: 500px;
-  position:relative;
+  position: relative;
   left: 450px;
   bottom: 650px;
-
   background-repeat: no-repeat;
-  background-image:  url("https://cdn.serif.com/spotlight/content/z8z/t9n/xlj/image-060ce5f3f1e5648705c9244ce549b589--opengraph@1x.jpg");
+  background-image: url("https://cdn.serif.com/spotlight/content/z8z/t9n/xlj/image-060ce5f3f1e5648705c9244ce549b589--opengraph@1x.jpg");
 }
-
-
 
 .date2 {
   background-color: red;
@@ -109,19 +97,12 @@ body {
 
 .paragraph2 {
   font-size: 20px;
-
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
-
-
 }
 
-
 /* edits of 3rd container ----------------------------------------------------- */
-
-
-
 .button2 {
   background-color: #1489BF;
   color: white;
@@ -173,9 +154,9 @@ body {
   padding-bottom: 25px;
   margin: 10px;
   font-size: 20px;
-
 }
 
+/* This is where my lines are  */
 .line {
   border-left: 6px solid #1489BF;
   height: 2000px;
@@ -192,47 +173,60 @@ body {
   left: 7%;
   margin-left: -3px;
   top: 1080px;
-
 }
 
+/* triangles start here...................... */
 .triangle-right {
-	width: 0px;
-	height: 0px;
-	border-top: 15px solid transparent;
-	border-left: 20px solid #F9F9F9;
-	border-bottom: 15px solid transparent;
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-left: 20px solid #F9F9F9;
+  border-bottom: 15px solid transparent;
   position: relative;
   left: 530px;
   bottom: 1485px;
 }
+
+
+
 .triangle-right2 {
-	width: 0px;
-	height: 0px;
-	border-top: 15px solid transparent;
-	border-left: 20px solid #F9F9F9;
-	border-bottom: 15px solid transparent;
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-left: 20px solid #F9F9F9;
+  border-bottom: 15px solid transparent;
   position: relative;
   left: 530px;
   bottom: 2440px;
 }
+
+
+
 .triangle-left {
   width: 0px;
-	height: 0px;
-	border-top: 15px solid transparent;
-	border-right: 20px solid #F9F9F9;
-	border-bottom: 15px solid transparent;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-right: 20px solid #F9F9F9;
+  border-bottom: 15px solid transparent;
   position: relative;
   left: 730px;
   bottom: 2070px;
 }
+
+/* circles are here................................. */
 .circle {
   height: 30px;
   width: 30px;
   background-color: #1489BF;
   border-radius: 50%;
   position: relative;
-  left:625px;
+  left: 625px;
   bottom: 2130px;
+}
+
+.circle:hover {
+  background-color: black;
+
 }
 .circle2 {
   height: 30px;
@@ -240,15 +234,24 @@ body {
   background-color: #1489BF;
   border-radius: 50%;
   position: relative;
-  left:625px;
+  left: 625px;
   bottom: 2550px;
 }
+
+.circle2:hover {
+  background-color: black;
+}
+
 .circle3 {
   height: 30px;
   width: 30px;
   background-color: #1489BF;
   border-radius: 50%;
   position: relative;
-  left:625px;
-  bottom:1650px;
+  left: 625px;
+  bottom: 1650px;
+}
+
+.circle3:hover {
+  background-color: black;
 }

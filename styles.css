@@ -7,6 +7,17 @@ body {
 .section1 {
   background-color: #F9F9F9;
   margin: 400px;
+  position: relative;
+  right: 350px;
+  bottom: 350px;
+
+
+}
+
+.section1::after{
+  content: "";
+  height: 10px;
+  width: 10px;
 
 }
 
@@ -19,6 +30,7 @@ body {
    margin:0;
   position: relative;
   left: 345px;
+
 
 }
 
@@ -68,6 +80,9 @@ body {
   margin-right: 500px;
   background-size: 100% 50%;
   width: 500px;
+  position:relative;
+  left: 450px;
+  bottom: 650px;
 
   background-repeat: no-repeat;
   background-image:  url("https://cdn.serif.com/spotlight/content/z8z/t9n/xlj/image-060ce5f3f1e5648705c9244ce549b589--opengraph@1x.jpg");
@@ -128,6 +143,9 @@ body {
 .section3 {
   background-color: #F9F9F9;
   margin: 400px;
+  position: relative;
+  right: 350px;
+  bottom: 950px;
 }
 
 .date3 {
@@ -156,4 +174,54 @@ body {
   margin: 10px;
   font-size: 20px;
 
+}
+
+.line {
+  border-left: 6px solid #1489BF;
+  height: 2000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.line2 {
+  border-left: 6px solid #1489BF;
+  height: 70px;
+  position: absolute;
+  left: 7%;
+  margin-left: -3px;
+  top: 1080px;
+
+}
+
+.triangle-right {
+	width: 0px;
+	height: 0px;
+	border-top: 15px solid transparent;
+	border-left: 20px solid #F9F9F9;
+	border-bottom: 15px solid transparent;
+  position: relative;
+  left: 530px;
+  bottom: 1485px;
+}
+.triangle-right2 {
+	width: 0px;
+	height: 0px;
+	border-top: 15px solid transparent;
+	border-left: 20px solid #F9F9F9;
+	border-bottom: 15px solid transparent;
+  position: relative;
+  left: 530px;
+  bottom: 2440px;
+}
+.triangle-left {
+  width: 0px;
+	height: 0px;
+	border-top: 15px solid transparent;
+	border-right: 20px solid #F9F9F9;
+	border-bottom: 15px solid transparent;
+  position: relative;
+  left: 730px;
+  bottom: 2070px;
 }
